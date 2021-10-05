@@ -1,0 +1,19 @@
+body{
+    background: url(photo/ha03.jpg);
+    background-size: cover;
+    margin: 0px;
+}
+
+.main {
+    color: rgb(213, 91, 84);
+    font-size: 40px;
+    font-family: Birthstone, cursive;
+    font-weight: 500;
+    background: rgb(230 230 232 / 86%);
+    width: 445px;
+    margin-left: auto;
+    padding-left: 10px;
+    margin-top: 95px;
+    margin-right: 75px;
+}
+
