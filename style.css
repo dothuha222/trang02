@@ -1,19 +1,24 @@
-body{
-    background: url(photo/ha03.jpg);
-    background-size: cover;
-    margin: 0px;
+
+img{
+    display: block;
+    width: 100%;
 }
 
-.main {
-    color: rgb(213, 91, 84);
-    font-size: 40px;
-    font-family: Birthstone, cursive;
-    font-weight: 500;
-    background: rgb(230 230 232 / 86%);
-    width: 445px;
-    margin-left: auto;
-    padding-left: 10px;
-    margin-top: 95px;
-    margin-right: 75px;
+.content{
+    background-color: #ec0e0e40;
+    color: #fff;
+    font-family: 'Pacifico', cursive;
 }
 
+.content p{
+    margin-left: 10px;
+    font-size: 31px;
+    text-align: center;
+}
+
+@media(max-width: 739px){
+    .content p{
+        font-size: 20px;
+        text-align: justify;
+    }
+}
